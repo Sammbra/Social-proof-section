@@ -1,7 +1,44 @@
+@media (min-width: 730px) {
+  #container {
+    max-width: 700px;
+    margin: 5rem auto;
+    padding: 1rem;
+  }
+
+  #container h1 {
+    font-size: 2.5rem;
+  }
+
+  #container .first-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
+  }
+
+  #container .first-part .text h1 {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  #container .first-part .text p {
+    text-align: left;
+  }
+
+  #container .info {
+    margin: 0 0 1rem 2rem;
+  }
+
+  #container #cards {
+    display: flex;
+    gap: 1rem;
+  }
+
+}
+
 @media (min-width: 1300px) {
   #container {
     max-width: 1200px;
-    margin: 9rem auto;
+    margin: 7rem auto;
   }
 
   #container h1 {
@@ -21,6 +58,7 @@
 
   #container .first-part .text p {
     margin-right: 8rem;
+    text-align: left;
   }
 
   #container .info {
@@ -31,7 +69,7 @@
     display: flex;
     align-items: center;
     padding: 1rem;
-    margin: 0 2rem 1rem 1rem;
+    /* margin: 0 2rem 1rem 1rem; */
   }
 
   #container .info .stars .image {
@@ -83,3 +121,5 @@
     width: 40px;
   }
 }
+
+

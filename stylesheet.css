@@ -23,7 +23,7 @@ li {
 }
 
 #container {
-  margin: 4rem 1rem;
+  margin: 4rem 1.5rem;
 }
 
 #container h1 {
@@ -34,10 +34,11 @@ li {
   color: var(--very-dark-magenta);
 }
 
-#container > p {
+#container .first-part .text p {
   text-align: center;
   color: var(--dark-grayish-magenta);
   font-size: 0.9rem;
+  text-align: center;
 }
 
 #container .info {
@@ -58,6 +59,9 @@ li {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
   border-radius: 5px;
+  max-width: 31.25rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #container #cards {
@@ -73,9 +77,12 @@ li {
 
 #container #cards .card {
   background-color: var(--very-dark-magenta);
-  padding: 1.9rem;
+  padding: 2.1rem;
   border-radius: 5px;
   margin: 1.1rem 0;
+  max-width: 31.25rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #container #cards .card > ul {
