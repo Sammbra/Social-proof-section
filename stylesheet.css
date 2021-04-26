@@ -1,0 +1,119 @@
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white-color: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+#container {
+  margin: 4rem 1rem;
+}
+
+#container h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1;
+  margin: 0 1rem 1.5rem 1rem;
+  color: var(--very-dark-magenta);
+}
+
+#container > p {
+  text-align: center;
+  color: var(--dark-grayish-magenta);
+  font-size: 0.9rem;
+}
+
+#container .info {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--very-dark-magenta);
+}
+
+#container .info img {
+  padding: 0.3rem;
+  height: 25px;
+  width: 25px;
+}
+
+#container .info .stars {
+  background-color: var(--light-grayish-magenta);
+  padding: 0.5rem 0 0.5rem 0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+#container #cards {
+  margin: 1rem 0;
+}
+
+#container #cards img {
+  margin-right: 1rem;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+#container #cards .card {
+  background-color: var(--very-dark-magenta);
+  padding: 1.9rem;
+  border-radius: 5px;
+  margin: 1.1rem 0;
+}
+
+#container #cards .card > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#container #cards .card ul h3 {
+  font-size: 0.7rem;
+  color: var(--white-color);
+}
+
+#container #cards .card ul h4 {
+  font-size: 0.7rem;
+  color: var(--soft-pink);
+  font-weight: 400;
+}
+
+#container #cards .card p {
+  color: var(--light-grayish-magenta);
+  font-size: 0.8rem;
+}
+
+.attribution {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--dark-grayish-magenta);
+  transition: color 300ms ease-in;
+}
+
+.attribution a:hover {
+  color: var(--soft-pink);
+}
+
